@@ -128,3 +128,4 @@ if r.status_code == 200:
 # No response from API
 else:
 	print("Unable to get response from API. Response code: " + str(r.status_code) + " | content: " + str(r.text))
+
